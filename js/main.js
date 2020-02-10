@@ -88,9 +88,10 @@
 //     	}
 //     }
 
+
 //Task10
-// $("#root table").css({"width":"80%","margin":"0 auto", "border-collapse":"collapse"});
-// $("#root td").css({"width":"10px", "height":"10px", "background-color":"#eee", "border":"1px solid #000"});
+// $("#root table").css({"margin":"0 auto", "border-collapse":"collapse"});
+// $("#root  table td").css({"width":"10px", "height":"10px", "background-color":"#eee", "border":"1px solid #000"});
 // $("#root tr").slice(0,6).addClass("bgc1_6");
 // $("tr.bgc1_6 td").css("background-color","#106B63");
 // $("#root tr").slice(6,9).addClass("bgc7_9");
@@ -105,25 +106,25 @@
 // $("#root tr").slice(15,19).addClass("bgc16_19");
 // $("tr.bgc16_19 td").css("background-color","#102173");
 //
-// $("td.none").css({"background-color":"none", "border":"none"});
+// $("td.none").css({"background-color":"transparent", "border":"none"});
 
 //Task11
-var width = 11;
-var picture = '';
-for (var i = 1; i <= width; i = i + 2) {
-
-  var m = i;
-  for(var k = (11-m); k > ((11-m)/2); k--){
-    picture = picture + '.';
-  }
-  for(var j = 1; j <= i; j++){
-    picture = picture + '#';
-  }
-  for(var k = (11-m); k > ((11-m)/2); k--){
-    picture = picture + '.';
-  }
-  picture = picture + `\n`;
-
-}
-
-console.log(picture);
+// var width = 11;
+// var picture = '';
+// for (var i = 1; i <= width; i = i + 2) {
+//
+//   var m = i;
+//   for(var k = (11-m); k > ((11-m)/2); k--){
+//     picture = picture + '.';
+//   }
+//   for(var j = 1; j <= i; j++){
+//     picture = picture + '#';
+//   }
+//   for(var k = (11-m); k > ((11-m)/2); k--){
+//     picture = picture + '.';
+//   }
+//   picture = picture + `\n`;
+//
+// }
+//
+// console.log(picture);
